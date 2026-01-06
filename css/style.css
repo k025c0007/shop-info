@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/*html*/
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.7;
+    color: rgb(0, 0, 0);
+}
