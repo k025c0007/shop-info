@@ -52,19 +52,7 @@ body {
 .about p {
     margin-bottom: 3rem;
 }
-/*ボタン*/
-.btn {
-    display: inline-block;
-    font-size: 1.5rem;
-    background-color: rgb(181, 180, 243);
-    color: #025d00;
-    border-radius: 8px;
-    padding: .75rem 1.5rem;
-    transition: .5s;
-}
-.btn:hover {
-    background-color: #000000;
-}
+
 /*フッター*/
 .page-footer {
     background-image: url(../images/footer-s.webp);
