@@ -9,3 +9,45 @@ body {
     line-height: 1.7;
     color: rgb(0, 0, 0);
 }
+/*ロゴ*/
+.align-center {
+    text-align: right;
+}
+/*ヘッダー*/
+.page-header {
+    padding-top: .5rem;
+}
+.logo {
+    width: 210px;
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.main-nav a {
+    color: rgb(0, 0, 0);
+}
+.main-nav a:hover {
+    color: #0bd
+}
+/*背景画像*/
+.cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+}
+.cover-home {
+    background-image: url(../images/cover-home-s.webp);
+}
+
+.about {
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 4rem;
+}
+.about p {
+    margin-bottom: 3rem;
+}
