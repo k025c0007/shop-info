@@ -11,7 +11,8 @@ body {
 }
 /*ロゴ*/
 .align-center {
-    text-align: right;
+    text-align: center;
+
 }
 /*ヘッダー*/
 .page-header {
@@ -40,7 +41,7 @@ body {
     height: 800px;
 }
 .cover-home {
-    background-image: url(../images/cover-home-s.webp);
+    background-image: url(../images/logo2.jpeg);
 }
 
 .about {
@@ -50,4 +51,75 @@ body {
 }
 .about p {
     margin-bottom: 3rem;
+}
+/*ボタン*/
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: rgb(181, 180, 243);
+    color: #025d00;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: #000000;
+}
+/*フッター*/
+.page-footer {
+    background-image: url(../images/footer-s.webp);
+    background-size:  cover;
+    background-position: center;
+    padding-top: 12rem;
+}
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.info th,
+.info td {
+    border-bottom: 1px solid #c9c2bc;
+}
+.info th {
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+.info td {
+    padding: 1rem 0;
+}
+.copyright {
+    background-color: rgb(9, 109, 0);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: #fff;
+}
+@media (min-width: 800px) {
+    /*見出し*/
+    .page-title {
+        font-size: 5rem;
+    }
+    /*ヘッダー*/
+    .main-nav {
+        font-size: 2rem;
+    }
+}
+/*HOME*/
+.cover-home {
+    background-image: url(../wcbcafe/images/logo1.jpeg);
+}
+.about {
+    margin: 4rem auto 0;
+}
+/*フッター*/
+.page-footer {
+    background-image: url(../wcbcafe/images/logo2.jpeg);
+    padding-top: 12rem;
+}
+.info th {
+    padding-left: 2.5rem;
 }
