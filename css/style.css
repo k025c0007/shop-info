@@ -205,11 +205,48 @@ img[src$="pakku.png"] {
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
-item. img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 16px;
+/* ボックス表示*/
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
 }
-item.p {
-    font-size: .875rem;
+.items {
+    border: 1px solid #333;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+.items img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.items p {
+    margin: 0;
+    padding: 0.6rem 0.8rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+.items p:nth-of-type(1) {
+    border-top: 1px solid #333;
+    font-weight: 700;
+}
+.items p:nth-of-type(2) {
+    border-top: 1px solid #333; 
+    color: #111;
+}
+
+@media (max-width: 800px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .items img { height: 160px; }
+}
+@media (max-width: 480px) {
+    .grid { grid-template-columns: 1fr; }
+    .items img { height: 220px; }
 }
