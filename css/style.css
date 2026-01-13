@@ -19,7 +19,17 @@ body {
     padding-top: .5rem;
 }
 .logo {
-    width: 210px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.page-header.wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .main-nav {
     display: flex;
