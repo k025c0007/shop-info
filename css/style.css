@@ -96,6 +96,40 @@ body {
     margin-bottom: 3rem;
 }
 
+/* 商品紹介下の画像ギャラリー */
+.about .product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    max-width: 400px;
+    margin: 2rem auto 0;
+    padding: 0 1rem;
+}
+.about .product-gallery img,
+.about img.product {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    object-fit: cover;
+}
+.about .product-caption {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #222;
+    margin-top: 0.5rem;
+}
+
+/* pakku.png を個別に小さく表示 */
+img[src$="pakku.png"] {
+    width: 960px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
 /*フッター*/
 .page-footer {
     background-image: url(../images/footer-s.webp);
