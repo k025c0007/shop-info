@@ -21,17 +21,17 @@ body {
 }
 .logo {
     display: block;
-    width: 100%;
+    width: 960px;
     max-width: 100%;
     height: auto;
-    margin-top: 1.6rem;
+    margin: 1.6rem auto 0;
 }
 
 .page-header.wrapper {
     width: 100%;
     max-width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 ;
 }
 .main-nav {
     display: flex;
@@ -41,7 +41,7 @@ body {
     list-style: none;
 }
 
-/* 左端のTopタブ */
+/* Topタブ */
 .top-tab {
     position: absolute;
     left: 1rem;
@@ -55,9 +55,10 @@ body {
     font-size: 1.5rem;
 }
 
-/* 商品紹介タイトルを中央寄せ */
+/* 商品紹介タイトル */
 .page-title {
     text-align: center;
+    font-size: 1.6rem;
 }
 .main-nav a {
     color: #000;
@@ -77,11 +78,10 @@ body {
 .top-tab:hover {
     color: #0bd;
 }
-/*背景画像*/
 .cover {
     background-size: cover;
-    background-position: center bottom;
-    height: 800px;
+    background-position: center center;
+    min-height: 100vh;
 }
 .cover-home {
     background-image: url(../images/logo2.jpeg);
@@ -130,17 +130,23 @@ body {
     color: #fff;
 }
 @media (min-width: 800px) {
-    /*見出し*/
+    /* 見出し */
     .page-title {
-        font-size: 5rem;
+        font-size: 2.2rem;
     }
-    /*ヘッダー*/
+    /* ヘッダー */
     .main-nav {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
     .top-tab,
     .main-nav a {
-        font-size: 2rem;
+        font-size: 1.4rem;
+    }
+    .logo {
+        max-width: 960px;
+    }
+    .cover {
+        min-height: 100vh;
     }
 }
 /*HOME*/
