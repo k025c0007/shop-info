@@ -121,13 +121,13 @@ body {
     margin-top: 0.5rem;
 }
 
-/* pakku.png を個別に小さく表示 */
+/*パック画像を個別に小さく表示 */
 img[src$="pakku.png"] {
     width: 960px;
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 1rem auto;
+    margin: 0 auto;
 }
 
 /*フッター*/
