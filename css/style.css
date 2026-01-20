@@ -162,6 +162,8 @@ img[src$="pakku.png"] {
     text-align: center;
     padding: 2rem 0;
     margin-top: 6rem;
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
     color: #fff;
 }
 @media (min-width: 800px) {
@@ -186,14 +188,14 @@ img[src$="pakku.png"] {
 }
 /*HOME*/
 .cover-home {
-    background-image: url(../wcbcafe/images/logo1.jpeg);
+    background-image: url(images/logo1.jpeg);
 }
 .about {
     margin: 4rem auto 0;
 }
 /*フッター*/
 .page-footer {
-    background-image: url(../wcbcafe/images/logo2.jpeg);
+    background-image: url(images/logo2.jpeg);
     padding-top: 12rem;
 }
 .info th {
@@ -202,15 +204,10 @@ img[src$="pakku.png"] {
 /*MENU*/
 .grid {
     display: grid;
-    gap: 3rem 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-}
-/* ボックス表示*/
-.grid {
-    display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: auto;
 }
 .items {
     border: 1px solid #333;
