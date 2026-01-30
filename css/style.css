@@ -157,6 +157,13 @@ img[src$="pakku.png"] {
 .info td {
     padding: 1rem 0;
 }
+.info-menu th {
+    width: 120px;
+}
+.info-menu td {
+    padding: 1rem;
+    text-align: left;
+}
 .copyright {
     background-color: rgb(9, 109, 0);
     text-align: center;
@@ -207,7 +214,8 @@ img[src$="pakku.png"] {
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
-}
+    margin: auto;
+
 .items {
     border: 1px solid #333;
     border-radius: 6px;
@@ -219,9 +227,9 @@ img[src$="pakku.png"] {
 }
 .items img {
     display: block;
-    width: auto;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
     margin: 0 auto;
 }
 .items p {
